@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont{
+    height: 90%;
+    width: 40%;
+   
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    border: 0.5px solid #000;
+    height: 34%;
+    width: 33.33%;
+    border-collapse: collapse;
+    font-size: 9rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1{
+   border-top: none;
+   border-left: none;
+}
+.box2{
+   border-top: none;
+}
+.box3{
+    border-top: none;
+    border-right: none;
+}
+.box4{
+    border-left: none;
+}
+.box6{
+    border-right: none;
+}
+.box7{
+    border-bottom: none;
+    border-left: none;
+}
+.box8{
+    border-bottom: none;
+}
+.box9{
+    border-bottom: none;
+    border-right: none;
+}

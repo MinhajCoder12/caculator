@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: Arial;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    background-color: rgb(11, 11, 11);
+}
+.page-1{
+    min-height: 100vh;
+    width: 100%;
+}
+.nav{
+    height: 50px;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    background-image: url("https://d33wubrfki0l68.cloudfront.net/439bf938233c24af021ffe6d206cd42f546e1143/ff4ed/assets/logo.svg");
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+}
+.nav-part2{
+    display: flex;
+    gap: 20px;
+}
+.nav-part2>h4{
+    font-weight: 500;
+}
+.nav-part2>h4:nth-child(1){
+    border-bottom: 2px solid #fff;
+}
+.circle{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-right: 10px;
+}
+.cursor{
+    height: 13px;
+    width: 13px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    transition: all 0.2s linear;
+}
+.page1>h1{
+    font-size: 8vw;
+    margin-top: 9%;
+    margin-left: 9vw;
+    font-weight: 300;
+}
+.page1>h2{
+    font-size: 8vw;
+    margin-left: 26vw;
+    font-weight: 300;
+}
+.video-cont{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+.video-cont>video{
+    width: 60%;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    
+}
+.page2{
+    height: 150%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(18, 18, 18);
+}
+.page2>video{
+    height: 100vh;
+    width: 60%;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+

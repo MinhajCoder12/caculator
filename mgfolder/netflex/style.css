@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald:wght@300&family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald:wght@300&family=Roboto:wght@100;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Roboto';
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+    
+}
+.circle{
+    height: 13px;
+    width: 13px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    transition: all 0.1s linear;
+}
+/* main */
+.main{
+    width: 100vw;
+    height: auto;
+}
+/* home */
+.home{
+    width: 100vw;
+    height: 100vh;
+   
+}
+.home-img{
+    height: 100%;
+    width: 100%;
+    background-image: url("PK-en-20231016-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+    /* background-size: zoom-in; */
+}
+/* homeshadow */
+.home-shadow{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0 0 0 / 60%);;
+}
+/* nav */
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 400px;
+}
+.logo{
+    background-image: url('580b57fcd9996e24bc43c529.png');
+    background-size: cover;
+    height: 100px;
+    width: 170px;
+    position: absolute;
+    left: 150px;
+    top: -8px;
+}
+.signin{
+    background-color: red;
+    color: #fff;
+    font-weight: 500;
+    height: 5vh;
+    width: 6vw;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 17px 0;
+    cursor: pointer;
+    position: absolute;
+    right: 150px;
+    top: 32px;
+}
+.NB:hover{
+    background-color: rgb(180, 0, 36);
+}
+/* home-content */
+.home-content{
+    /* height: calc(100px - 100%); */
+    height: 83.9%;
+    width: 100%;
+    /* background-color: blue; */
+}
+.home-content1{
+    font-size: 3.2rem;
+    font-family: 'Roboto';
+    position: absolute;
+    top: 40%;
+    left: 16%;
+}
+.home-content2{
+    font-size: 1.5rem;
+    position: absolute;
+    top: 53%;
+    left: 35%;
+}
+.home-content3{
+    font-size: 1.3rem;
+    position: absolute;
+    top: 63%;
+    left: 25%;
+}
+.search{
+    position: absolute;
+    top: 75%;
+    left: 27%;
+}
+.search-bar{
+    height: 56px;
+    width: 370px;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px soild #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding-left: 20px;
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid #fff;
+}
+.search-icon{
+    height: 56.7px;
+    width: 209px;
+    background-color: red;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    margin-left: 8px;
+    position: absolute;
+    cursor: pointer;
+}
+/* install */
+.install{
+    border-top: 10px solid rgb(65, 52, 52);
+    border-bottom: 10px solid rgb(65, 52, 52);
+    height: 90vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.install-cont{
+    display: flex;
+    align-items: center;
+    height: 50vh;
+    width: 70vw;
+    gap: 40px;
+}
+.install-img{
+    background-image: url("mobile-0819.jpg");
+    background-size: cover;
+    height: 400px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.box{
+    background-color: black;
+    height: 17%;
+    width: 20vw;
+    position: absolute;
+    left: 334px;
+    bottom: -450px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+.box-img{
+    margin-top: 6px;
+    margin-left: 10px;
+    height: 85px;
+    border-radius: 5px;
+    width: 60px;
+    background-image: url('boxshot.png');
+    background-size: cover;
+}
+.box-content{
+    margin-left: 15px;
+}
+box-con{
+    display: flex;
+    align-items: center;
+}
+.boxpara1{
+    font-size: 1rem;
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+.downloading{
+    margin-top: 3px;
+    font-size: 0.85rem;
+    color: royalblue;
+}
+.downloading-img{
+    background-image: url('download-icon.gif');
+    background-size: cover;
+    height: 65px;
+    width: 65px;
+}
+.install-content h1{ 
+    position: absolute;
+    top: 122vh;
+    font-size: 3rem;
+    height: 200px;
+    width: 400px;
+}
+.install-content p{
+    font-size: 1.7rem;
+    height: 100px;
+    width: 450px;
+    position: absolute;
+    top: 154vh;
+}
+.screen3{
+    height: 65vh;
+    width: 100vw;
+    background-color: #000;
+    border-bottom: 10px solid rgb(65, 52, 52);
+    display: flex;
+    align-items: center;
+   
+}
+.screen3-cont{
+    width: 30vw;
+    height: 68%;
+    margin-left: 340px;
+}
+.screen3-cont h1{
+    font-size: 3.5rem;
+    width: 100px;
+}
+.screen3-cont p{
+    font-size: 1.7rem;
+    /* font-weight: 600; */
+    margin-top: 20px;
+    width: 400px;
+}
+.screen4{
+    width: 100vw;
+    height: 80vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 10px solid rgb(65, 52, 52);
+}
+.screen4-cont{
+    height: 80%;
+    
+    width: 80%;
+    display: flex;
+}
+.screen4-cont .img{
+    background-image: url("AAAABejKYujIIDQciqmGJJ8BtXkYKKTi5jiqexltvN1YmvXYIfX8B9CYwooUSIzOKneblRFthZAFsYLMgKMyNfeHwk16DmEkpIIcb6A3.png");
+    height: 100%;
+    width: 500px;
+    background-size: cover;
+}
+.screen4-content{
+    width: 550px;
+    margin-left: 30px;
+}
+.screen4-content h1{
+    font-size: 3.5rem;
+    width: 500px;
+    margin-top: 70px;
+}
+.screen4-content p{
+    margin-top: 20px;
+    font-size: 1.7rem;
+    width: 600px;
+}
+.screen5{
+    height: 160vh;
+    width: 100vw;
+    background-color: #000;
+}
+.screen5 h1{
+    font-size: 3.5rem;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.panels{
+    height: 630px;
+    width: 75%;
+
+    position: absolute;
+    left: 170px;
+}
+.panel{
+    width: 100%;
+    height: 85px;
+    margin: 8px 0;
+    background-color: rgb(45,45,45);
+    font-size: 1.5rem;
+    padding: 27px 25px;
+    display: flex;
+    cursor: pointer;
+}
+.panel i{
+    position: absolute;
+    right: 30px;
+    font-weight: 100;
+}
+.jh:hover{
+    background-color: rgb(71, 70, 70);
+}
+.screen5-searchbar{
+    position: absolute;
+    top: 2810px;
+    left: 24.5%;
+}
+.screen5-searchbar p{
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+.searchbar2 input{
+    height: 56px;
+    width: 368.75px;
+    margin-left: 30px;
+    margin-right: 6px;
+    border-radius: 3px;
+    border: none;
+    border: 1px solid #fff;
+    font-size: 1rem;
+    padding: 10px 20px;
+    background-color: rgb(27, 25, 25);
+}
+.searchbar2 button{
+    position: absolute;
+    height: 56px;
+    width: 209px;
+    background-color: red;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
